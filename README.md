@@ -9,10 +9,10 @@ Open the index.html file in your browser and check the console.
 
 3. The function receives a string containing numbers separated by a new line.
 The function verifies a each number in the string against its included check digit. This number must pass the following test: 
-First, reverse the digits of the given number.
-For each digit in an odd position double the value of every second digit. If the result of this doubling operation is greater than 9 (e.g., 8 × 2 = 16), then add the digits of the product (e.g., 16: 1 + 6 = 7, 18: 1 + 8 = 9).
-For each digit in an even position make their sum (A).
-For each digit in an odd position make their sum (B).
-Add the sum of the even digits (A) to the sum of the odd digits (B).
-If the total modulo 10 is equal to 0 (if the total ends in zero) then the number is valid according to the Luhn formula; else it is not valid.
+  - First, reverse the digits of the given number.
+  - For each digit in an odd position double the value of every second digit. If the result of this doubling operation is greater than 9 (e.g., 8 × 2 = 16), then add the digits of the product (e.g., 16: 1 + 6 = 7, 18: 1 + 8 = 9).
+  - For each digit in an even position make their sum (A).
+  - For each digit in an odd position make their sum (B).
+  - Add the sum of the even digits (A) to the sum of the odd digits (B).
+  - If the total modulo 10 is equal to 0 (if the total ends in zero) then the number is valid according to the Luhn formula; else it is not valid.
    
